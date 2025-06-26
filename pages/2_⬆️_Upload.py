@@ -5,6 +5,7 @@ This page serves as a hub to navigate between different upload types.
 import streamlit as st
 from utils.drive_handler import DriveHandler
 from datetime import datetime
+from components.generated_upload import *
 
 # Page configuration
 st.set_page_config(
@@ -194,59 +195,6 @@ def show_normal_upload():
                 st.switch_page("pages/3_🖼️_Gallery.py")
     else:
         st.info("No normal images uploaded yet")
-
-def show_generated_upload():
-    """Show generated image upload interface."""
-    st.title("🎨 Upload Generated Images")
-    
-    st.markdown("""
-    Upload your generated/AI-created images here. These images will be stored in the generated_images folder 
-    and can be used for sending via WhatsApp.
-    """)
-    
-    # File uploader
-    uploaded_file = st.file_uploader("Choose a generated image file", type=['png', 'jpg', 'jpeg'])
-    
-    if uploaded_file is not None:
-        file_details = {"FileName": uploaded_file.name, "FileType": uploaded_file.type}
-        st.write(file_details)
-        
-        # Display image preview
-        st.image(uploaded_file, caption='Preview', use_column_width=True)
-        
-        # Upload button
-        if st.button("Upload to Drive"):
-            try:
-                with st.spinner("Uploading..."):
-                    file_data = uploaded_file.getvalue()
-                    result = DriveHandler.upload_to_drive(file_data, "generated_images", uploaded_file.name)
-                    
-                    if result:
-                        st.success("Generated image uploaded successfully!")
-                        st.json(result)
-                    else:
-                        st.error("Failed to upload image")
-                    st.rerun()
-            except Exception as e:
-                st.error(f"Error during upload: {str(e)}")
-    
-    # Recent uploads
-    st.markdown("---")
-    st.subheader("Recent Generated Image Uploads")
-    
-    images = DriveHandler.list_drive_images("generated_images")
-    if images:
-        for img in images[:10]:
-            formatted_date = format_date(img['createdTime'])
-            if st.button(f"🎨 {img['name']} ({formatted_date})", key=f"generated_{img['id']}"):
-                st.session_state.selected_image = {
-                    'id': img['id'],
-                    'folder_type': 'generated_images',
-                    'name': img['name']
-                }
-                st.switch_page("pages/3_🖼️_Gallery.py")
-    else:
-        st.info("No generated images uploaded yet")
 
 # Main page content
 if st.session_state.upload_view == 'main':
