@@ -129,7 +129,7 @@ whatsapp-image-sender/
 └── logs/                     # Log files directory
 ```
 
-## Contributing
+## Contributing..
 
 1. Fork the repository
 2. Create a feature branch
