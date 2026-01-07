@@ -91,6 +91,13 @@ You’ll need:
 - A Telegram bot token (from BotFather)
 - A Telegram chat id
 
+Set these in your `.env`:
+
+```env
+TELEGRAM_BOT_TOKEN=123456789:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+TELEGRAM_CHAT_ID=123456789
+```
+
 ## Running the Application
 
 1. Start the application:

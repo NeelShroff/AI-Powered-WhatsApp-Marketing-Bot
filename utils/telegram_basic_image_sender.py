@@ -1,9 +1,12 @@
 import asyncio
 from telegram import Bot
+import os
+from dotenv import load_dotenv
 
-# Replace these with your actual values
-default_bot_token = "7976280160:AAHAIfa0lmFcTj7HJW_da__S7BzHrwmneEE"
-default_chat_id = "2080681940"
+load_dotenv()
+
+default_bot_token = os.getenv("TELEGRAM_BOT_TOKEN", "")
+default_chat_id = os.getenv("TELEGRAM_CHAT_ID", "")
 default_image_path = "test_image.png"  # Place a test image in your project directory
 
 async def send_basic_telegram_image(bot_token, chat_id, image_path, caption="Test image from script"):
@@ -13,4 +16,4 @@ async def send_basic_telegram_image(bot_token, chat_id, image_path, caption="Tes
 
 if __name__ == "__main__":
     asyncio.run(send_basic_telegram_image(default_bot_token, default_chat_id, default_image_path))
-    print("Image sent!") 
+    print("Image sent!")

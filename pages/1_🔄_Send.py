@@ -17,6 +17,7 @@ from streamlit_image_select import image_select
 from st_clickable_images import clickable_images
 import tempfile
 from utils.telegram_sender import send_telegram_image
+from dotenv import load_dotenv
 
 # Page configuration
 st.set_page_config(
@@ -24,6 +25,8 @@ st.set_page_config(
     page_icon="🔄",
     layout="wide"
 )
+
+load_dotenv()
 
 # Custom CSS for mobile optimization and link styling
 st.markdown("""
@@ -407,8 +410,8 @@ tab1, tab2 = st.tabs(["Normal Images", "Generated Images"])
 creds = DriveHandler._get_credentials()
 
 # Remove the input fields for Telegram bot token and chat ID
-bot_token = "7976280160:AAHAIfa0lmFcTj7HJW_da__S7BzHrwmneEE"
-chat_id = "2080681940"
+bot_token = os.getenv("TELEGRAM_BOT_TOKEN", "")
+chat_id = os.getenv("TELEGRAM_CHAT_ID", "")
 
 with tab1:
     st.markdown('<div class="category-header">Normal Images</div>', unsafe_allow_html=True)
