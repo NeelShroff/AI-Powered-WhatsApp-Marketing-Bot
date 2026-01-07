@@ -159,8 +159,18 @@ def show_normal_upload():
         file_details = {"FileName": uploaded_file.name, "FileType": uploaded_file.type}
         st.write(file_details)
         
-        # Display image preview
-        st.image(uploaded_file, caption='Preview', use_column_width=True)
+        # Display image preview (smaller and elegant)
+        st.markdown(
+            """
+            <style>
+            .stImage img { border-radius: 12px !important; box-shadow: 0 8px 22px rgba(0,0,0,0.08) !important; }
+            </style>
+            """,
+            unsafe_allow_html=True,
+        )
+        c1, c2, c3 = st.columns([1, 2, 1])
+        with c2:
+            st.image(uploaded_file, caption='Preview', width=360)
         
         # Upload button
         if st.button("Upload to Drive"):

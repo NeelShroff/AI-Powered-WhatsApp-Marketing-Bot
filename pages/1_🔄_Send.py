@@ -4,7 +4,6 @@ Send page for the WhatsApp Image Sender application.
 import streamlit as st
 from utils.contact_manager import ContactManager
 from utils.drive_handler import DriveHandler
-from utils.whatsapp_handler import WhatsAppHandler
 from datetime import datetime
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
@@ -17,7 +16,6 @@ import base64
 from streamlit_image_select import image_select
 from st_clickable_images import clickable_images
 import tempfile
-from utils.whatsapp_sender import send_whatsapp_image, send_whatsapp_message
 from utils.telegram_sender import send_telegram_image
 
 # Page configuration
@@ -502,7 +500,8 @@ with tab2:
             elif not selected_ids:
                 st.warning("Please select at least one image.")
             else:
-                st.warning("A browser window will open for each image/contact. Please do not interact with your computer until all images are sent. You may need to scan the WhatsApp QR code the first time. If images are not sent, try increasing the wait time.")
+                # Optionally, you can add a simple info or progress message here
+                pass
                 contact_numbers = [c['number'] for c in selected_contacts]
                 image_details = []
                 import tempfile

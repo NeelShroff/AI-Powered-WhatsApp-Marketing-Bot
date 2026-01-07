@@ -13,7 +13,7 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseUpload
 from google.oauth2 import service_account
 
-SCOPES = ['https://www.googleapis.com/auth/drive.file']
+SCOPES = ['https://www.googleapis.com/auth/drive']  # Broader scope so we can read all user files in folders
 CREDENTIALS_FILE = 'credentials/credentials.json'
 TOKEN_FILE = 'credentials/token.json'
 
@@ -28,6 +28,17 @@ class DriveHandler:
         # Check if token.json exists
         if os.path.exists(TOKEN_FILE):
             creds = Credentials.from_authorized_user_file(TOKEN_FILE, SCOPES)
+            # If the stored token doesn't include required scopes, force re-auth
+            try:
+                if not creds or not hasattr(creds, 'scopes') or not set(SCOPES).issubset(set(creds.scopes or [])):
+                    # Remove token to trigger re-auth with new scopes
+                    try:
+                        os.remove(TOKEN_FILE)
+                    except Exception:
+                        pass
+                    creds = None
+            except Exception:
+                creds = None
         
         # If no valid credentials available, let user log in
         if not creds or not creds.valid:
@@ -95,9 +106,13 @@ class DriveHandler:
             }
             
             # Upload file
+            # Determine mimetype from filename, fallback to generic image if unknown
+            import mimetypes
+            guessed_mime, _ = mimetypes.guess_type(filename)
+            mime = guessed_mime if (guessed_mime and guessed_mime.startswith('image/')) else 'image/jpeg'
             media = MediaIoBaseUpload(
                 io.BytesIO(file_data),
-                mimetype='image/jpeg',
+                mimetype=mime,
                 resumable=True
             )
             file = service.files().create(

@@ -19,4 +19,5 @@ st-clickable-images
 selenium
 
 # New dependencies
-pillow 
+pillow
+openai>=1.24.0 

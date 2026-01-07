@@ -1,0 +1,242 @@
+1
+Health & Wellness Poster Prompt (Fresh + Pure, Detailed + Fonts & Layout)
+
+Prompt:
+"Review the product image and description. Create a wellness-inspired slogan (e.g., 'Purity for Every Family', 'Health Starts with Clean Water'). Design a bright, family-focused poster that emphasizes freshness, purity, and safety. Use soft tones, approachable design elements, and a balanced layout with no overlaps."
+
+Layout Instructions + Font Assignments:
+
+Top Section (Header):
+- Background: Gradient (light blue → white) with soft cloud-like accents to convey freshness and safety
+- Logo: Top-left, medium size, with ~20px padding
+- Badge: Top-right (e.g., 'Family Safe', '100% Purity') styled with a rounded shape and soft aqua glow
+- Slogan (Main Statement): Large, centered in Quicksand Bold (rounded, friendly)
+- Example: "Health Starts with Clean Water"
+
+Middle Section (Main Visual):
+- Product Image: Centered with a glowing halo effect or soft ripple glow behind it
+- Right Side (Benefits + Icons):
+  • 3–4 healthy, family-focused benefits (e.g., "Safe for Kids, Fresh Taste, Family Protection, Pure Filtration")
+  • Font: Nunito SemiBold (soft, rounded, highly readable)
+  • Icons: Rounded style – heart, water droplet, family silhouette, shield
+
+Lower Section (Promise + Technical Details):
+- Promise Line: "Safe water for every home" in Playfair Display Italic (classic serif with soft touch)
+- Technical Specs: Small, neat, left-aligned bullet list
+- Font: Open Sans Regular (clean, professional, readable)
+
+Bottom Section (Footer Bar):
+- Style: Full-width footer bar in light aqua background with darker blue text
+- Content (fixed layout):
+  • Left: www.hitechro.net
+  • Center: info@hitechro.net
+  • Right: Toll Free: 1800 120 1212
+- Font: Montserrat Bold (modern sans-serif, strong and clear)
+
+2
+Eco-Friendly Poster Design Prompt
+
+Prompt:
+“First, analyze the product image and description. Craft a refreshing, eco-conscious slogan that communicates purity, safety, and sustainability (e.g., ‘Pure Water, Pure Living’, ‘Eco Care for Every Home’).
+Design a vertical portrait poster with a clean, modern aesthetic that blends nature-inspired visuals with technology-driven trust. The composition should feel airy, balanced, and easy to read, with smooth gradients and eco-friendly accent elements.”
+
+Design Guidelines
+Background & Atmosphere
+
+Use a white-to-light-blue vertical gradient background to evoke freshness, purity, and clarity.
+
+Add subtle organic textures (soft ripples, water reflections, or faint leafy silhouettes) for depth without clutter.
+
+Keep the overall mood bright, breathable, and minimal.
+
+Header (Top Section)
+
+Logo: Place in the top-left corner, clean and minimal, on a crisp white patch of background.
+
+Eco Badge/Sticker: Rounded sticker-style badge in the top-right corner (marketing highlight, e.g., “100% Eco-Safe” or “Go Green, Live Pure”).
+
+Color scheme: Green base with subtle orange accents for contrast.
+
+Slight leafy vector overlays in both upper corners, semi-transparent, to enhance the eco vibe.
+
+Slogan: Centered just below header, bold, uplifting, and confident.
+
+Font should be modern, geometric, and eco-friendly (e.g., Poppins Bold).
+
+Colors: Fresh green or deep aqua blue.
+
+Middle Section (Core Visuals)
+
+Product Placement:
+
+Right-aligned, tall, and white-colored to stand out against the background.
+
+Base enhanced with a dynamic water splash effect, symbolizing purity, hydration, and freshness.
+
+Information Blocks (Center/Left):
+
+Arrange 3–4 stacked info blocks vertically, separated by fine divider lines.
+
+Alternate highlight colors: Blue for technology, Green for eco/nature, Grey for secondary/supporting info.
+
+Numbers/metrics: Always in bold aqua-blue.
+
+Descriptions: Softer tones (green/grey).
+
+Icons (optional): Simple line icons for eco/health/tech cues.
+
+Footer (Bottom Section)
+
+Hashtag: Bottom-left corner in green/blue, friendly tone (e.g., #PureLiving).
+
+Disclaimer Bar: Full-width green band with white sans-serif disclaimer text, small but readable.
+
+Contact Information Bar:
+
+Just below the disclaimer (final strip at the bottom).
+
+Background: Light aqua.
+
+Text: Darker blue, bold and clear.
+
+Layout:
+
+Left: www.hitechro.net
+
+Center: info@hitechro.net
+
+Right: Toll Free: 1800 120 1212
+
+Ensure equal spacing for a structured, corporate feel.
+
+Design Philosophy & Flow
+
+The poster should guide the eye naturally from top to bottom: Logo → Badge → Slogan → Product + Info → Hashtag → Disclaimer → Contact.
+
+Maintain ample white space to ensure the design breathes.
+
+Balance visuals and text—product should dominate visually, while text supports without overpowering.
+
+Visual language should blend eco-nature (leaves, green tones, water) with modern trust (clean typography, structured layout, gradients).
+3
+Technology-Focused Poster Prompt (Descriptive with Fonts & Layout)
+
+Prompt:
+"Analyze the product and create a futuristic, technology-driven slogan (e.g., 'Innovation in Every Drop', 'Powered by Technology, Perfected for You'). Design a vertical poster with a modern, tech-inspired theme. Layout must be balanced, structured, and free of overlaps. Ensure all text is readable and not placed over busy parts of background. Ensure the overall design is clean, modern, and professional, balancing visuals with information. Keep the product image crisp and highlight its relevance to family health, purity, or premium quality."
+
+Layout Instructions + Font Assignments:
+
+Top Section (Header):
+- Background: Dark gradient (black → deep blue) with subtle digital patterns (gridlines, circuit lines, abstract tech glow)
+- Logo: Top-left corner, ~20px padding
+- Tech Badge: Top-right (e.g., 'AI Powered', 'Next-Gen Tech'), styled with neon glow
+- Slogan (Main Statement): Top-center, bold, futuristic vibe
+- Font: Orbitron Bold (futuristic, tech-oriented, strong presence)
+
+Middle Section (Main Visual):
+- Product Image: Center, slightly tilted or with digital glow (spotlight + neon outline)
+- Surrounding Effects: Soft holographic rings, data-stream style glow, or circuit-inspired accents (not overpowering)
+- Benefits (Right Side): 3–4 product advantages (e.g., Smart Filtration, Precision Engineered, High Performance)
+- Font for benefits: Exo 2 Medium (modern, clean, tech-styled)
+- Icons: Minimalist line-style with neon blue/cyan accent
+
+Lower Section (Promise + Technical Details):
+- Promise Line: e.g., "Engineered with precision. Trusted for performance."
+- Font: Poppins SemiBold Italic (modern, clean, slightly futuristic)
+- Technical Specs: Small, organized bullet list
+- Font: Source Code Pro Regular (monospace, tech-like, readable)
+
+Footer (Bar):
+- Style: Dark footer bar (black/navy) with neon blue accents
+- Font: Montserrat ExtraBold (modern, strong, high-tech visibility)
+- Content: Contact details in bright cyan/white
+
+Design Rules:
+- Maintain clean, structured layout with no overlaps
+- Use subtle neon accents (blue/cyan) but keep it professional
+- Hierarchy: Slogan > Product > Benefits > Promise > Technical > Footer
+- Ensure tech elements enhance rather than distract from product focus
+- Overall aesthetic: modern, innovative, trustworthy, high-performance
+
+Font Strategy:
+- Orbitron Bold → Futuristic slogan
+- Exo 2 Medium → Modern benefits text
+- Poppins SemiBold Italic → Tech promise line
+- Source Code Pro Regular → Technical specs (monospace)
+- Montserrat ExtraBold → Footer contact info Neon/cyber effects should be subtle accents, not overpowering. Fonts must follow a futuristic + professional tech brand feel.
+
+4
+Family-Oriented Poster Prompt with Fonts
+
+Prompt:
+“First, analyze the product and create a family-safety-focused slogan (e.g., ‘Safe Water for Every Home’, ‘Protecting Your Loved Ones’).
+
+Design a vertical family-oriented poster with a balanced layout and no overlapping elements. Ensure all sections are clearly separated with consistent padding and alignment.
+
+Layout Instructions + Font Assignments
+Top Section (Header)
+
+Background: smooth gradient (sky blue → white), symbolizing freshness.
+
+Logo: Top-left, small, fixed size, not touching edges.
+
+Slogan: Top-center, large and bold.
+
+Font: Playfair Display (serif, elegant, premium)
+
+Ensure padding above/below so it doesn’t collide with the logo.
+
+Middle Section (Main Visual)
+
+Divide into two halves with equal spacing.
+
+Right Half: Product image, centered vertically, with a soft spotlight glow. Ensure the product does not touch edges.
+
+Left Half: A happy family image, softly blended/faded, semi-transparent so it doesn’t overpower the product. Maintain clear separation from the product.
+
+Around the product (not overlapping), add transparent realistic water droplets or fresh leaves (subtle, not cartoonish).
+
+Lower Section (Trust + Technical Details)
+
+Add a reassuring tagline (e.g., “Trusted by families for clean, safe, healthy living”).
+
+Font: Great Vibes (script cursive, warm, family-friendly)
+
+Below tagline: Product technical specifications as simple bullets, left-aligned.
+
+Font: Lato (clean sans-serif, professional, readable)
+
+Keep spacing between each bullet for clarity.
+
+Bottom Section (Footer Bar)
+
+Full-width colored footer bar (solid blue/teal).
+
+Place contact info in 3 aligned columns:
+
+Left: www.hitechro.net
+
+Center: info@hitechro.net
+
+Right: Toll Free No.: 1800 120 1212
+
+Font: Montserrat (modern sans-serif, bold for clarity)
+
+Use white text for visibility, with padding so text doesn’t touch edges.
+
+Constraints
+
+Do not let product, family image, or icons overlap.
+
+Maintain at least 15–20px padding between all sections.
+
+Hierarchy Rule: Slogan > Product > Family > Benefits > Tagline > Technical > Footer.
+
+Ensure all text is readable and not placed over busy background areas.
+
+Keep design clean, modern, and professional, balancing visuals with information.
+
+Product image must look crisp, premium, and connected to family safety/purity.
+
+5
+Premium Luxury Poster Prompt with Fonts Prompt: “First, review the product image and description. Create a luxury-style slogan (e.g., ‘Luxury Meets Purity’, ‘Engineered for Excellence’). Design a premium-style vertical poster with balanced layout, no overlapping, and proper spacing.” Layout Instructions + Font Assignments Top Section (Header) Background: Deep navy/black gradient with golden or silver spark accents. Logo: Top-left, small, not touching edges. Premium Badge (e.g., Platinum Series / Gold Standard): Top-right, elegant metallic effect. Slogan: Just below, large in metallic gold font. Font: Cinzel (serif, premium, elegant, luxury tone) Middle Section (Main Visual) Place product image in the center with a soft spotlight glow. Add subtle golden glowing rings or luxury accents around product (not overpowering). Right Side: Highlight 3–4 benefits in icon + text format. Font for benefit text: Raleway (modern, sleek, minimal) Icons: thin-line style, premium look. Lower Section (Promise + Technical Details) Add a refined one-line promise, e.g., “Designed for those who demand the best”. Font: Playfair Display Italic (sophisticated serif, luxury promise) Below promise, list technical details in small, clean font, left-aligned. Font: Open Sans (professional, readable, small body text) Bottom Section (Footer Bar) Full-width footer bar (dark background with gold/white text). Place contact info clearly spaced in 3 parts: Left: www.hitechro.net Center: info@hitechro.net Right: Toll Free No.: 1800 120 1212 Font: Montserrat (modern sans-serif, bold, high visibility) Constraints Do not overlap product, icons, or text. Maintain at least 15–20px padding between sections. Keep hierarchy: Slogan > Product > Benefits > Promise > Technical > Footer. Ensure metallic gold/silver text is subtle and elegant, not flashy. Overall design must look refined, premium, luxury brand level. Fonts used strategically: Cinzel → Premium luxury slogan. Raleway → Modern, minimal benefits text. Playfair Display Italic → Luxury promise line. Open Sans → Technical specs (clean, small). Montserrat → Bold footer info.
